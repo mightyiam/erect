@@ -1,0 +1,25 @@
+{
+  "name": "erect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "unit": "ava",
+    "test": "npm run lint && npm run unit && ava"
+  },
+  "author": "Shahar Or <mightyiampresence@gmail.com> (mightyiam)",
+  "license": "ISC",
+  "dependencies": {
+    "filendir": "^1.0.0",
+    "xstream": "^6.5.0"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "mock-require": "^1.3.0",
+    "randomstring": "^1.1.5",
+    "simple-spy": "^2.0.3",
+    "standard": "^8.4.0",
+    "tmp": "0.0.29"
+  }
+}
